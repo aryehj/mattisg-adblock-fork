@@ -1,8 +1,8 @@
 #!/bin/bash
 # Block ad serving and tracking system-wide even before a request is issued to them.
 
-SOURCE='https://someonewhocares.org/hosts/zero/hosts'
-BACKUP='https://raw.github.com/MattiSG/adblock/master/hosts.default'
+SOURCE='https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts'
+BACKUP='https://someonewhocares.org/hosts/zero/hosts'
 TARGET='/etc/hosts'
 DOWNLOADED='/etc/hosts.blocklist'
 ORIGINAL='/etc/hosts.without-adblock'
