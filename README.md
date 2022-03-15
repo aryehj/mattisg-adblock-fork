@@ -1,4 +1,4 @@
-Block any outgoing request to ad and tracker servers, system-wide.
+Block any outgoing request to ad and tracker servers, system-wide. This fork changes the original by incorporating a more extensive block list. 
 
 
 Usage
